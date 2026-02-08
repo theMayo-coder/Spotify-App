@@ -1,0 +1,24 @@
+# Environment variables with sensitive data
+.env
+.env.local
+.env.*.local
+
+# Build files
+node_modules/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
